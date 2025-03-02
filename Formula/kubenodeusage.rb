@@ -18,6 +18,8 @@ class KubeNodeUsage < Formula
     sha256 "3cd0c21ed5c4c2d6863504f78d8c3ed182400759c82c702df25f6042cc10adbb"
   end
 
+  # 
+
   def install
     if OS.mac? && Hardware::CPU.intel?
       bin.install "KubeNodeUsage-darwin-amd64-v#{version}" => "KubeNodeUsage"
