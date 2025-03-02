@@ -1,4 +1,4 @@
-class kubenodeusage < Formula
+class Kubenodeusage < Formula
   desc "KubeNodeUsage is a command-line utility to get the usage of nodes and pods in a Kubernetes cluster graphically."
   homepage "https://github.com/AKSarav/KubeNodeUsage"
   version "3.0.3"
